@@ -1,0 +1,31 @@
+Package: SOCIAL
+Type: Package
+Title: Single-cell transcriptOmics Cell-cell Interaction ALgorithms
+Version: 0.1.0
+Description: Toolkit to infer cell-type-specific ligand-receptor interaction activity from single-cell transcriptomics data.
+License: GPL-3.0 license
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    abind,
+    dplyr,
+    magrittr,
+    Matrix,
+    parallel,
+    purrr,
+    reshape2,
+    rslurm,
+    stats,
+    tidyr
+Depends: 
+    R (>= 4.4.1)
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Authors@R: c(
+    person("Sahil", "Sahni", , "sahnis2@nih.gov", role = c("aut", "cre")),
+    person("Kun", "Wang", , "kun.wang@nih.gov", role = "aut"),
+    person("Eytan", "Ruppin", , "eytan.ruppin@nih.gov", role = "aut")
+  )
+RoxygenNote: 7.3.2
